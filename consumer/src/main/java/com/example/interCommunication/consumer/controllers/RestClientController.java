@@ -29,6 +29,7 @@ public class RestClientController {
     // Inject the RestClient bean
     private final RestClient restClient;
 
+    //Method -2 
     @GetMapping("/instance")
     public String getInstance() {
         // Use the injected client. Note: only the endpoint path is needed now.
